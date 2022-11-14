@@ -10,12 +10,13 @@ ENV DATABASE_PORT=5432
 ENV DATABASE_NAEM=user
 ENV DATABASE_USERNAME=g0620_team1_hacker4
 ENV DATABASE_PASSWORD=lloydsHack1!
-ENV CONFIG_FILE_PATH=
+ENV CONFIG_FILE_PATH=foo
 
 # 4. copy the app into the work directory
-
+ADD . app
 # 5. install all the packages needed for NodeJS
-
+RUN npm install 
 # 6. expose the port needed
-
+EXPOSE 3000 
 # 7. start the app
+ENTRYPOINT [ "nodejs","indx.js" ]
