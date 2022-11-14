@@ -23,7 +23,7 @@ RUN npm install
 EXPOSE 3000 
 
 # 7. start the app
-ENTRYPOINT [ "nodejs", "indx.js" ]
+ENTRYPOINT [ "node", "src/indx.js" ]
 
 
 # # syntax=docker/dockerfile:1
