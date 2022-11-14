@@ -1,4 +1,4 @@
-# LBG-Hack Share&Care Application
+# Share&Care Application
 
 Share&Care application is a rapidly growing social network primarily focused on supporting worthy causes all over the world. It has been refactored into a number of microservices written in NodeJS. Application now consists of 5 microservices. Source code for each of them is in its spearate folder inside of this repository.
 
